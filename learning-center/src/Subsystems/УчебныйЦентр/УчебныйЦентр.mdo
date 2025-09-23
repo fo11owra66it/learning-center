@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f25567a-a8e7-4d63-8561-d1d1025aa4a9">
+  <name>УчебныйЦентр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебный центр</value>
+  </synonym>
+  <comment>Управление процессом приема на обучение. Фиксация всех контактов и истории взаимодействий.</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

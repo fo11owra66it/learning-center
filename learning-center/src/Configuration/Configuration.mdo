@@ -48,8 +48,15 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.ОтчетыИАнализ</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.УчебныйПроцесс</subsystems>
+  <subsystems>Subsystem.УчебныйЦентр</subsystems>
+  <subsystems>Subsystem.УчетМатериальныхЦенностей</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <subsystems>Subsystem.ЭкзаменыИАттестация</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовОбычнаяШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>

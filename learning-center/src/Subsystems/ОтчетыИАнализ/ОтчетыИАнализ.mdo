@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9fd9a3d-3073-4dcc-bfc4-43a19efc2861">
+  <name>ОтчетыИАнализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты и анализ</value>
+  </synonym>
+  <comment>Получение сводной информации для принятия управленческих решений.</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

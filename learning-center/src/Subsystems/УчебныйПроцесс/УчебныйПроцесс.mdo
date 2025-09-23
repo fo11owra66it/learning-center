@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1469ef69-9343-45fa-b492-fec0d086bad5">
+  <name>УчебныйПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебный процесс</value>
+  </synonym>
+  <comment>Организация и управление образовательной деятельностью.</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

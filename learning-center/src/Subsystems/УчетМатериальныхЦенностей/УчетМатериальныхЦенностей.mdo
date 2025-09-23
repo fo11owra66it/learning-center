@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9384091-e745-49ba-900d-c45a937c0ecf">
+  <name>УчетМатериальныхЦенностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет материальных ценностей</value>
+  </synonym>
+  <comment>Контроль за движением имущества и учебных материалов.</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>
