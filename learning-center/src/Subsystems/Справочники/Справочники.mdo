@@ -8,4 +8,5 @@
   <comment>Хранение всей основной информации о физических лицах, объектах и понятиях системы.</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ФизическиеЛица</content>
 </mdclass:Subsystem>

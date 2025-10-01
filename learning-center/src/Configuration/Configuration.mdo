@@ -1671,20 +1671,20 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
-  <catalogs>Catalog.ЗакладкиВзаимодействий</catalogs>
-  <catalogs>Catalog.Заметки</catalogs>
-  <catalogs>Catalog.ГруппыПользователей</catalogs>
-  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
-  <catalogs>Catalog.ВнешниеПользователи</catalogs>
-  <catalogs>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
-  <catalogs>Catalog.ВерсииФайлов</catalogs>
-  <catalogs>Catalog.ВидыПроверок</catalogs>
-  <catalogs>Catalog.ВстречаПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.ВнешниеКомпоненты</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
+  <catalogs>Catalog.ВерсииФайлов</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.ВидыПроверок</catalogs>
+  <catalogs>Catalog.ВнешниеКомпоненты</catalogs>
+  <catalogs>Catalog.ВнешниеПользователи</catalogs>
+  <catalogs>Catalog.ВстречаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыДоступа</catalogs>
+  <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.ЗакладкиВзаимодействий</catalogs>
+  <catalogs>Catalog.Заметки</catalogs>
+  <catalogs>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
@@ -1720,6 +1720,7 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
@@ -1735,17 +1736,17 @@
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
-  <enums>Enum.ВариантыОтображенияМеток</enums>
-  <enums>Enum.ВариантыПериода</enums>
-  <enums>Enum.ВариантыПредставленияПериода</enums>
-  <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
-  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
-  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыВажностиВзаимодействия</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
-  <enums>Enum.ВариантыСжатияTIFF</enums>
-  <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВариантыИспользованияВнешнихКомпонент</enums>
+  <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
+  <enums>Enum.ВариантыПериода</enums>
+  <enums>Enum.ВариантыПредставленияПериода</enums>
+  <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
+  <enums>Enum.ВариантыСжатияTIFF</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.ВидыДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидыНазначенияДатЗапрета</enums>
   <enums>Enum.ВидыПравилДляОбменаДанными</enums>
   <enums>Enum.ВидыСвойств</enums>
@@ -1759,6 +1760,7 @@
   <enums>Enum.ОперацииАдминистрированияПрофилейБезопасности</enums>
   <enums>Enum.ПериодичностиРасписанийРассылокОтчетов</enums>
   <enums>Enum.ПериодОчисткиФайлов</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ПорядокОбработчиковОбновления</enums>
   <enums>Enum.ПорядокОтветовНаЗапросыУведомленийОПрочтении</enums>
   <enums>Enum.ПриоритетыОбъектовОбмена</enums>
