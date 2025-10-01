@@ -9,4 +9,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Организации</content>
 </mdclass:Subsystem>

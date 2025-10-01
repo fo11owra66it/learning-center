@@ -9,9 +9,6 @@
     <value>Организация</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>CatalogRef.Организации</types>
   </type>
 </mdclass:DefinedType>

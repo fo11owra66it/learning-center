@@ -9,6 +9,6 @@
     <value>Объект склонения</value>
   </synonym>
   <type>
-    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.ФизическиеЛица</types>
   </type>
 </mdclass:DefinedType>
