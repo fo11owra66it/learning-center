@@ -20,6 +20,10 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Телицин С.Л.</vendor>
   <version>1.0.0.1</version>
+  <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
+  <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
+  <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
+  <defaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</defaultReportSettingsForm>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -1890,21 +1894,22 @@
   <dataProcessors>DataProcessor.УничтожениеПерсональныхДанных</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
-  <informationRegisters>InformationRegister.ДомаЗданияСтроения</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
-  <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>
-  <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеОбъектовДляРегистрацииВОбменах</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
-  <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
-  <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
-  <informationRegisters>InformationRegister.ГруппыЗначенийДоступа</informationRegisters>
-  <informationRegisters>InformationRegister.ДатыЗапретаИзменения</informationRegisters>
-  <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.АрхивСообщенийОбменов</informationRegisters>
-  <informationRegisters>InformationRegister.ДатыПоследнейЗагрузкиПочтовыхСообщений</informationRegisters>
+  <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
+  <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
+  <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
+  <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
+  <informationRegisters>InformationRegister.ГруппыЗначенийДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеОбъектовДляРегистрацииВОбменах</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыЗапретаИзменения</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыПоследнейЗагрузкиПочтовыхСообщений</informationRegisters>
+  <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
+  <informationRegisters>InformationRegister.ДокументыФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.ДомаЗданияСтроения</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеАдресныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.ЗаблокированныеДляПолученияУчетныеЗаписи</informationRegisters>
@@ -2016,12 +2021,6 @@
   <informationRegisters>InformationRegister.СубъектыДляСкрытияПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
   <informationRegisters>InformationRegister.УведомленияОПрочтении</informationRegisters>
-  <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
-  <informationRegisters>InformationRegister.УничтоженныеПерсональныеДанные</informationRegisters>
-  <informationRegisters>InformationRegister.УровниСокращенийАдресныхСведений</informationRegisters>
-  <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
-  <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
-  <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьДвоичныеДанныеФайлов</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
@@ -2030,6 +2029,12 @@
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
+  <informationRegisters>InformationRegister.УничтоженныеПерсональныеДанные</informationRegisters>
+  <informationRegisters>InformationRegister.УровниСокращенийАдресныхСведений</informationRegisters>
+  <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
+  <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <informationRegisters>InformationRegister.ХранилищеФайлов</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

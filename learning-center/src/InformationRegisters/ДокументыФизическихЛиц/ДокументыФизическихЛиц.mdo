@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2138ac20-5e8f-4c45-9ba0-32a8fccba592">
+  <producedTypes>
+    <selectionType typeId="ee722802-7a9a-4a77-b109-e414a4fd81f0" valueTypeId="f9d6c641-b59f-47ed-917e-96caec644fb1"/>
+    <listType typeId="c80ddbbb-42c9-4de4-93dd-6ed7aa63e26b" valueTypeId="36f02ebd-ed05-4b7a-a3ae-2611ea845b97"/>
+    <managerType typeId="39fac67e-cf62-4c7c-8a9d-26046ec3cc72" valueTypeId="292c2c90-3521-4a95-8c0a-eaad57f3bf0e"/>
+    <recordSetType typeId="8f56d4a3-5541-4485-81a0-5321aebdf907" valueTypeId="5534eddc-d4cc-403f-90be-b1255bddeb9c"/>
+    <recordKeyType typeId="4ef3e6ae-51f6-4191-b4dd-ee5488402497" valueTypeId="3c42f79e-a42c-404c-8688-2981db2fa2ae"/>
+    <recordType typeId="bffb6fe8-f5fc-44dd-be58-fae3f4c456e8" valueTypeId="9d2acacc-550d-4f86-a3e3-4c71fba25205"/>
+    <recordManagerType typeId="55c96692-2ab4-45ec-9db1-6a0875cf90eb" valueTypeId="16e889d0-fb17-4431-84f4-6ddd36d36774"/>
+  </producedTypes>
+  <name>ДокументыФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы физических лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Документ</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Документы</value>
+  </listPresentation>
+  <resources uuid="1bbec238-3c2a-4e63-9eb9-f453947c307c">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Серия документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4c127827-9daf-4c44-9fb5-30b43d6f9a9b">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e693a214-7fe7-45b5-ae02-46e21ce064af">
+    <name>ДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата выдачи документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ea2cf3e8-15ee-4e46-9a48-081e804e87fa">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Срок действия документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e5ee5964-325e-410d-a679-25029b82081c">
+    <name>КемВыдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кем выдан</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кем выдан документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="26f0ed8a-df93-4c10-bb62-20f2533392ed">
+    <name>КодПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код подразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код подразделения документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f497448a-9493-4884-9afb-0bfe9a3da331">
+    <name>ЯвляетсяДокументомУдостоверяющимЛичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является документом удостоверяющим личность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что документ является удостоверением личности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3c1eaeda-071e-4559-a96e-332e72d1cb22">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представление документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0c8a2b8b-0a49-4944-a9e1-cbcec5baee22">
+    <name>УдалитьВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Вид документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид документа удостоверяющего личность</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bdd341a3-3e57-489c-bc8f-c03b6e5e0f1a">
+    <name>ФамилияЛатиницей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия латиницей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c80e2032-5c50-47f9-9a92-d70e4063860d">
+    <name>ИмяЛатиницей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя латиницей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="238ef27a-bd59-4f12-8cbc-8ce89dea4d77">
+    <name>СтранаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна выдачи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bd77c3ec-98d2-424c-aa9b-56647ea9259c">
+    <name>Физлицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ. лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b1fc8c6a-968b-4e6f-8f24-7bf975f3ba2b">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид документа физического лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
