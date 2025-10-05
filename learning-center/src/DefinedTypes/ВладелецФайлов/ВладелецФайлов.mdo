@@ -9,6 +9,7 @@
     <value>Владелец файлов</value>
   </synonym>
   <type>
+    <types>CatalogRef.ФизическиеЛица</types>
     <types>CatalogRef.ПапкиФайлов</types>
   </type>
 </mdclass:DefinedType>

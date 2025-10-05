@@ -299,6 +299,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="33e736b6-9eb5-46c0-a1bf-b87bb2948224">
+    <name>Гражданство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гражданство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="691450e3-e4f7-4939-acb8-5e747d0c81e9">
     <producedTypes>
       <objectType typeId="7086b1e3-383e-4f72-b9be-ba9de9090b98" valueTypeId="e2f0b193-f5e2-4dbd-8aa2-974bdbf5ef1e"/>

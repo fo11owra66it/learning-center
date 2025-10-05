@@ -10,5 +10,6 @@
   </synonym>
   <type>
     <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>
