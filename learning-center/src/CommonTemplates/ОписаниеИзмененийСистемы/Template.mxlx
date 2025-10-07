@@ -705,7 +705,7 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Версия1_0_0_5</name>
+		<name>Версия1_0_0_1</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>2</beginRow>
@@ -735,7 +735,7 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка1_0_0_5</name>
+		<name>Шапка1_0_0_1</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>1</beginRow>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84fdf611-e141-4a80-8347-1479b9ff9917">
+  <name>ОбщийМенеджерЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий менеджер записи</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

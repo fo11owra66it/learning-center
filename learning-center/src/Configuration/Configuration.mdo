@@ -19,7 +19,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Телицин С.Л.</vendor>
-  <version>1.0.0.1</version>
+  <version>1.0.0.2</version>
   <updateCatalogAddress>https://github.com/fo11owra66it/learning-center.git</updateCatalogAddress>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
@@ -972,6 +972,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМенеджерЗаписи</commonModules>
   <commonModules>CommonModule.ОрганизацииПереопределяемый</commonModules>
   <commonModules>CommonModule.ОрганизацииСервер</commonModules>
   <commonModules>CommonModule.ОтправкаSMS</commonModules>
