@@ -156,6 +156,35 @@
         </code>
       </content>
     </items>
+    <items id="2bfd36c7-061c-4dd3-9724-06e7c9480674">
+      <name>СправочникФизическиеЛица</name>
+      <description>Контактная информация справочника &quot;Физические лица&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="3f0ca68f-39b8-4fd8-b849-91dc7103ca2b">
+        <name>ТелефонФизическогоЛица</name>
+        <description>Телефон</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="b11e4d4e-1b0f-4a51-b532-add4e5a67ec3">
+        <name>EmailФизическогоЛица</name>
+        <description>Электронная почта</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="d71d3321-1557-4e06-bb4e-3fddfa4ad881">
+        <name>АдресФизическогоЛица</name>
+        <description>Адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
   </predefined>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВидыКонтактнойИнформации.Form.ФормаЭлемента</defaultObjectForm>
